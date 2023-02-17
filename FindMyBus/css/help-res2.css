@@ -1,0 +1,61 @@
+.center {
+    left: 36%;
+    width: 91%;
+}
+body{
+    height: 110vh;
+}
+#floa {
+    width: 65%;
+    left: 15%;
+    height: 73vh;
+    top: 125vh;
+}
+#lower h1 {
+    margin: 90vh 0 3vh 0;
+    width: 100%;
+}
+.m-1 {
+    font-size: 1.65rem;
+}
+.mail {
+    font-size: 1rem;
+}
+#floa h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#lower {
+    height: 139vh;
+}
+
+.footer {
+    top: 250vh;
+}
+
+#lower h3 {
+    margin: 4vh 0 2vh 0;
+}
+
+#floa img {
+    height: 4.5vh;
+    width: 14.5vw;
+    margin-top: 2.5vh;
+}
+
+.bt1 {
+    font-size: 1.1rem;
+    padding: 5px;
+    margin: 2px;
+    margin-bottom: 15px;
+}
+
+
+
+#navbar ul li a {
+    margin: 0px 3px;
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    display: block;
+}

@@ -1,0 +1,264 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Itim', cursive;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg,#2980b9, #8e44ad);
+  height: 100vh;
+}
+
+/* Navigation Bar */
+
+#navbar{
+    display: flex;
+    background-color: rgb(4 27 83);
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+} 
+/* logo */
+#logo{
+    width: 134px;
+}
+#navbar img{
+  
+    margin: 5px;
+    height: 50px;
+    width: 87%;
+    border-radius: 3px;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li{
+    list-style: none;
+
+}
+/* list items */
+#navbar ul li a{
+    color:rgb(218, 223, 230);
+    margin: 0px 5px;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    display: block;
+}
+#navbar a:hover{
+    transition: 100ms;
+    background-color: rgb(251, 252, 253);
+    color: rgb(4 27 83);
+    text-shadow: 4px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+/* Upper  */
+#upper::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url("../img/contact.jpg") no-repeat center center/cover ;
+    height: 120%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+
+
+
+/* Form  */
+
+.center{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.center h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(252, 252, 252);
+}
+.center form{
+  background-color: rgb(4 27 83 / 85%);
+  border-radius: 15px;
+  padding: 0 40px;
+  margin-left: 20%;
+  box-sizing: border-box;
+}
+form .txt{
+  position: relative;
+  border-bottom: 2px solid #ffffff;
+  margin: 20px 0;
+}
+.txt input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+textarea{
+    padding: 0 5px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+.txt label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #ffffff;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.txt span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #2980b9;
+  transition: .5s;
+}
+.txt input:focus ~ label,
+.txt input:valid ~ label{
+  top: -5px;
+  color: #2980b9;
+}
+.txt input:focus ~ span::before,
+.txt input:valid ~ span::before{
+  width: 100%;
+}
+
+.area span::before{
+    content: '';
+    position: absolute;
+    top: 176px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2980b9;
+    transition: .5s;
+  }
+  .area textarea:focus ~ label,
+  .area textarea:valid ~ label{
+    top: -9px;
+    color: #2980b9;
+  }
+  .area textarea:focus ~ span::before,
+  .area textarea:valid ~ span::before{
+    width: 100%;
+  }
+  .bt1{
+    padding: 1vh 1vw;
+    background-color: rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: inherit;
+    margin: 2vh 0 2vh 2vh;
+}
+.bt1:hover{
+    padding: 1vh 1vw;
+    margin-bottom: 2vh;
+    background-color: rgba(199, 193, 193, 0.85);
+    cursor: pointer;
+}
+
+/* Lower  */
+
+#lower{
+    position: absolute;
+    top: 120%;
+    z-index: -1;
+    background-color: rgba(221, 64, 43, 0.795);
+    width: 100%;
+    height: 70vh;
+}
+#lower #l-matter{
+    margin: 10% 0 0 10%;
+    width: 38%;
+}
+#lower h1{
+    font-size: 2.5rem;
+    margin: 2vh 0;
+}
+#lower h3{
+    font-size: 1.8rem;
+    margin: 2vh 0;
+}
+#lower p{
+    font-size: 1.2rem;
+}
+
+
+/* Float  */
+#floa{
+    height: 70vh;
+    width: 35%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 73vh;
+    left: 63vw;
+    border-radius: 30px;
+    text-align: center;
+}
+#floa h1{
+    font-size: 2.1rem;
+    padding-top: 15px ;
+}
+.m-1{
+    font-size: 1.2rem;
+}
+#floa img{
+    height: 5vh;
+    width: 5vw;
+    margin-top: 4vh ;
+}
+#floa #m{
+    margin-top: 3vh;
+    font-size: 1.2rem;
+}
+
+
+/* Footer  */
+
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    height: fit-content;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    top: 190%;
+    left: 0;
+    width: 100%;
+}
+.footer p{
+    margin-top: 0vh;
+    display: block;
+}
+.footer a{
+    color: white;
+    margin-top: 2vh;
+}

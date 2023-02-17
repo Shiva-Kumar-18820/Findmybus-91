@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find My Bus</title>
+    <link rel="stylesheet" href="css/FTB.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 579px)" href="css/FTB-res.css">
+    <link rel="stylesheet" media="screen and (max-width: 415px)" href="css/FTB-res2.css">
+    <link rel="stylesheet" media="screen and (max-width: 755px)" href="css/FTB-res3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Kaushan+Script&family=Merienda:wght@800&display=swap" rel="stylesheet">
+ 
+    <style>
+        
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logomain.jpg" alt="FindMyBus">
+        </div>
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="FTB.html"> <u> Find Bus</u></a></li>
+            <li><a href="Help.html">Help</a></li>
+            <li><a href="About.html">About Us</a></li>
+        </ul>
+    </nav>
+    <section id="main">
+        <div class="cont">
+            <h1>Locate your Bus</h1>
+            <i class="fa fa-bus" style="font-size:24px"></i>
+        </div>
+        <br>
+        <form action="javascript:void(0);"  class="search-main">
+            <input id="searchBox" type="text" name="q" placeholder="Enter your bus number">
+            <button type="button" id="search_but" ><img src="img/search.jpg" alt="search"></button>
+        </form>
+        <div id="searchres-cont">
+            <!-- <iframe width="200" height="100" src="./img/busarrival.mp4" frameborder="0" allowfullscreen></iframe> -->
+            <div id="non_video">
+                <div id="searchres" class="searchresults" >
+                    
+                </div>
+                
+                <div id="buslocres" class="busresults" >
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div id="driver-cont">
+            If, you're a driver <a href="/login.html">login here.</a>
+        </div>
+    </section>
+
+    <script src="./js/loc.js" type="module"></script>
+</body>
+</html>

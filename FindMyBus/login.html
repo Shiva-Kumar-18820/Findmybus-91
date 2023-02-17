@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 595px)" href="css/login-res.css">
+    <link rel="stylesheet" media="screen and (max-width: 415px)" href="css/login-res2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-auth-compat.js"></script></head>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logomain.jpg" alt="FindMyBus">
+        </div>
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="FTB.html">Find Bus</a></li>
+            <li><a href="Help.html">Help</a></li>
+            <li><a href="About.html">About Us</a></li>
+        </ul>
+    </nav>
+    <!-- <div id="form-cont"> -->
+    <section id="form-cont">
+        <div class="center" id="u-cont">
+            <form action="noaction">
+                <h1>
+                    Login Here
+                </h1>
+                <div class="txt ">
+                    <input type="email" name="email" id="email" required>
+                    <span></span>
+                    <label for="email">Email:</label>
+                </div>
+                <div class="txt ">
+                    <input type="password" name="pws" id="pws" required>
+                    <span></span>
+                    <label for="pws">Password:</label>
+                </div>
+                <input class="bt1" type="button" value="Login" id="login">
+                <input class="bt1" type="reset" value="Reset">
+            </form>
+        </div>
+    </section>
+    <!-- </div> -->
+    <!-- <script src="/js/loc.js" type="module"></script> -->
+    <!-- <script src="/js/auth.js" type="module"></script> -->
+    <script src="/js/auth2.js" type="module"></script>
+</body>
+</html>

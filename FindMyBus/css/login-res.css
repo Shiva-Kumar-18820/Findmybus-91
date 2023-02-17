@@ -1,0 +1,14 @@
+.center{
+    width: 82%;
+}
+
+#navbar ul li a{
+    margin: 0px 1px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+}
+
+.bt1 {
+    padding: 1vh 2vw;
+    font-size: 17px;
+}

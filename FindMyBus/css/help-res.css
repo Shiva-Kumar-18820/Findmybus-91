@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+  }
+  /* NavBar */
+
+#navbar img {
+    margin: 5px;
+    height: 47px;
+    width: 77%;
+}
+
+#navbar ul li a{
+    margin: 0px 3px;
+    padding: 10px 15px;
+    font-size: 0.85rem;
+    display: block;
+}
+#navbar a:hover{
+    transition: 100ms;
+    text-shadow: 4px;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+  /* Upper  */
+
+  /* Form  */
+
+form h1{
+    font-size: 1.2rem;
+}
+textarea {
+    margin-top: 30px;
+}
+.area textarea:focus ~ label,
+  .area textarea:valid ~ label{
+    top: -7px;
+    color: black;
+  }
+#u-center{
+    top: 70%;
+    left: 20%;
+    width: 65%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.center{
+    top: 70%;
+    left: 20%;
+    width: 65%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.center form {
+    padding: 0 20px;
+    height: fit-content;
+    margin-left: 26%;
+}
+  /* Lower  */
+#lower{
+    top: 120%;
+    width: 100%;
+    height: 65vh;
+}
+#lower #l-matter{
+    margin: 5% 0 0 5%;
+    width: 90%;
+}
+#lower h1{
+    font-size: 2.1rem;
+    width: 50%;
+    margin: 8vh 0 3vh 0;
+}
+#lower h3{
+    font-size: 1.5rem;
+    margin: 6vh 0;
+}
+#lower p{
+    font-size: 1.2rem;
+}
+
+
+  /* Floating  */
+#floa{
+    width: 42%;
+    left: 56%;
+    height: 60vh;
+    top: 73vh;
+}
+#floa h1{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.m-1{
+    font-size: 1rem;
+}
+.mail{
+    font-size: 0.7rem;
+}
+#floa img{
+    height: 3.5vh;
+    width: 3.5vw;
+    margin-top: 2.5vh ;
+}
+#floa #m{
+    margin-top: 3vh;
+    font-size: 1rem;
+}
+  /* Footer  */
+
+  .footer{
+      top: 185%;
+  }
+
+.bt1{
+    font-size: 0.8rem;
+    padding: 3px;
+    margin: 2px;
+    margin-bottom: 13px;
+}

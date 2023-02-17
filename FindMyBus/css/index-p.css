@@ -1,0 +1,59 @@
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 5px 5px;
+}
+#logo{
+    width: 65px;
+}
+#navbar img{
+    width: 60px;
+}
+#home h2{
+    font-size: 2rem;
+}
+#home p{
+    font-size: 20px;
+}
+#home div{
+    margin: 10px;
+
+}
+#serv-cont{
+    flex-direction: column;
+    height: 925px;
+}
+.box{
+    margin: 9px;
+    width: 60%;
+    height: 300px;
+}
+.box:hover{
+    transform: none;
+    box-shadow: none;
+}
+.box-head{
+    font-size: 14px;
+}
+.box-m{
+    font-size: 13.8px;
+    opacity: 1;
+}
+#t-head{
+    font-size: 1.5rem;
+    margin-bottom: 3.5vh;
+}
+#e-ticketing p{
+    font-size: 1rem;
+}
+#e-ticketing img{
+    width: 15vh;
+    height: 15vh;
+    margin-bottom: 5vh;
+    margin-left: 30%;
+}
+#footer a{
+    font-size: 0.5rem;
+}
+.footer{
+    font-size: 0.5rem;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conductor</title>
+    <link rel="stylesheet" href="css/conductor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 685px)" href="css/conductor-res.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Kaushan+Script&family=Merienda:wght@800&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logomain.jpg" alt="FindMyBus">
+        </div>
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="FTB.html"> Find Bus</a></li>
+            <li><a href="Help.html">Help</a></li>
+            <li><a href="About.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div id="tracking">
+        <div class="txt" id="busdiv">
+            <input type="text" name="busno" id="busno" required>
+            <span></span>
+            <label for="busno">Bus No.:</label>
+        </div>
+        <button class="button-56" id="start" role="button">Start Tracking</button>
+        <div id="track-res">
+
+        </div>
+        <p id="updatetext">Location will be automatically refreshed in every <b>30 seconds</b></p>
+        <button class="button-29" role="button" id="end-track">End Tracking</button>
+    </div>
+</body>
+<script src="/js/track.js" type="module"></script>
+</html>

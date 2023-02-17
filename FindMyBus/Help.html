@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/help.css">
+    <link rel="stylesheet" media="screen and (max-width: 937px)" href="css/help-res.css">
+    <link rel="stylesheet" media="screen and (max-width: 531px)" href="css/help-res2.css">
+    <title>Help</title>
+</head>
+<body>
+    <div>
+
+        <nav id="navbar">
+            <div id="logo">
+                <img src="img/logomain.jpg" alt="FindMyBus">
+            </div>
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="FTB.html">Find Bus</a></li>
+                <li><a href="Help.html"><u>Help</u></a></li>
+                <li><a href="About.html">About Us</a></li>
+            </ul>
+        </nav>
+
+        <section id="upper">
+            
+        <div class="center" id="u-cont">
+            <form action="noaction">
+                <h1>
+                    Submit Your Query 
+                </h1>
+                <div class="txt ">
+                    <input type="text" name="name" id="name" required >
+                    <span></span>
+                    <label for="name">Name:</label>
+                </div>
+                <div class="txt ">
+                    <input type="number" name="Phn" id="Phn" required >
+                    <span></span>
+                    <label for="Phn">Phn. No.:</label>
+                </div>
+                <div class="txt ">
+                    <input type="email" name="email" id="email" required >
+                    <span></span>
+                    <label for="email">Email:</label>
+                </div>
+                <div class="txt area">
+                    <textarea name="Message" id="msg" cols="30" rows="8" required
+                    style="display: block; resize: none;"></textarea>
+                    <label for="msg">Enter your query here:</label>
+                </div>
+                <input class="bt1" type="button" id="submit_button" value="Submit">
+                <input class="bt1" type="reset" value="Reset">
+            </form>
+        </div>
+    </section>
+    <section id="lower">
+        <div id="l-matter">
+            <h1>Get in touch with us:</h1>
+            <h3>Hey we are looking forward to contact you and help you.</h3>
+            <p>Submit your queries/suggestion through the above form or else directly contact us through the details
+                given. Our Service is available 24/7 we'll respond you in no time.</p>
+            </div>
+    </section>
+        <div id="floa">
+            <h1 id="floa-h">
+                Contact Us Directly
+            </h1>
+            <img src="./img/call.png" alt="">
+            <p class="m-1">8888888888</p>
+            <br>
+            <img src="./img/email.png" alt="">
+            <p class="m-1 mail">support.findmybus@gmail.com</p>
+            <br>
+            <img src="./img/location.png" alt="">
+            <p class="m-1">Government Polytechnic Masab Tank, Hyderabad - 500028</p>
+        </div>
+    </div>
+        <section class="footer">
+            <p><a href="terms-cond.html">Terms and Conditions</a></p>
+        <p>CopyRight: FindMyBus.com &copy; all rights reserved</p>
+    </section>
+</body>
+<script src="./js/form.js" type="module"></script>
+</html>
